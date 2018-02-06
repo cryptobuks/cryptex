@@ -38,3 +38,16 @@ if (hash_equals($plaintext, $result)) {
 
 ?>
 ```
+
+
+# Contributing
+
+## Installing
+
+git clone https://github.com/michaelmawhinney/Cryptex.git
+cd Cryptex/
+composer install
+
+## Generating Docs
+
+<code>./vendor/bin/phpdoc --directory="./src/" --target="./docs/" --template="./vendor/cvuorinen/phpdoc-markdown-public/data/templates/markdown-public" --title="Cryptex Documentation"</code>
